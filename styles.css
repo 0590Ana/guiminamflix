@@ -1,0 +1,62 @@
+body {
+   color: rgb(57, 14, 138);
+   background: rgb(122, 36, 111, 0.753);
+   margin: 0px;
+   font-family: "Crafty Girls", sans-serif;
+   margin-bottom: 100px;
+}
+
+header {
+   border-bottom: solid 2px rgb(27, 20, 121);
+   padding: 20px;
+   font-size: 32px;
+   color: rgb(57, 14, 138);
+}
+
+.chamada {
+   background: rgb(184, 156, 213);
+   padding-bottom: 80px;
+   padding-top: 80px;
+   display: flex;
+   justify-content: center;
+}
+
+.chamada-texto {
+   margin-right: 5%;
+}
+
+h1 {
+   font-size: 40px;
+}
+
+p {
+   font-size: 32px;
+}
+
+img {
+   height: 200px;
+}
+
+.categoria-vídeos {
+   display: flex;
+   overflow-x: auto;
+   gap: 5px;
+}
+.categoria {
+   padding-left: 30px;
+   padding-right: 30px;
+   margin-top: 50px
+}
+
+.categoria-vídeos img {
+   opacity: 0.8;
+   height: 200px;
+}
+
+.categoria-vídeos img:hover{
+    opacity: 1.0;
+    border: 5px solid rgb(27, 20, 121);
+}
+.categoria h2 {
+   color: rgb(57, 14, 138);
+}
